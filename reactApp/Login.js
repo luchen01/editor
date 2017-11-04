@@ -28,7 +28,7 @@ class Login extends React.Component {
   render(){
     console.log(this.props.location.pathname);
     return(
-      <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
+      <div className = 'login'>
         <h1>LOGIN</h1>
         <br/>
         <input

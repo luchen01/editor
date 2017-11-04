@@ -12,13 +12,15 @@ class Router extends React.Component {
   }
   render(){
     return(
-      <div>
-        <AppBar title = "RE_EDIT" />
+      <div >
+        <AppBar title = "Editor" style = {{backgroundColor: '#9E9E9E'}}/>
+        <div className = 'background'>
         <Route path={"/"} exact component = {Login} />
         <Route path={"/register"} exact component = {Register} />
         <Route path={"/editor/:userid/:docid"} exact component = {Main} />
         <Route path={"/document/:userid"} exact component = {DocumentPortal} />
         <Route path={"/newdocument"} exact component = {NewDoc} />
+      </div>
       </div>
     );
   }

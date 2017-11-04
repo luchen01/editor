@@ -1,3 +1,7 @@
+body {
+  /*font-family: monospace;*/
+  font-family: monospace;
+}
 .public-DraftStyleDefault-block{
   /*box-sizing: border-box;
   border: 1px solid #ddd;*/
@@ -7,6 +11,45 @@
   margin-bottom: 2em;
   /*box-shadow: inset 0px 1px 8px -3px #ABABAB;*/
   background: #fefefe;
+}
+
+.background {
+  background: url("https://www.bookstocourses.com/images/dowell/b2c/y2s/oc/courseintroimage.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login {
+  height: 50vh;
+  width: 50vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register {
+  height: 50vh;
+  width: 50vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.docPortal {
+  background-color: white;
+  height: 85vh;
+  width: 85vw;
+  margin: 10px;
 }
 
 .toolbar{

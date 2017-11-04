@@ -44,9 +44,9 @@ class DocumentPortal extends React.Component {
 
   render() {
     return (
-      <div>
-      <h3>Document Portal</h3>
-      CurrentUser: {this.props.match.params.userid} <br></br>
+      <div className = 'docPortal'>
+      <h2>Document Portal</h2>
+      <h6>CurrentUser: {this.props.match.params.userid} </h6>
       <h6>Welcome!</h6>
       <NewDoc history = {this.props.history} user = {this.state.user}/>
       <div className = 'container'>

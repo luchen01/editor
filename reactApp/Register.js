@@ -35,14 +35,13 @@ class Register extends React.Component {
     }
 
     return(
-      <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
-
+      <div className = 'register'>
         <h1>Register</h1>
         <br/>
         <input type="text" name="username" placeholder="username" value={this.state.username} onChange={(e)=>(this.setState({username: e.target.value}))}/>
         <br/>
         <input type="password" name="password" placeholder="password" value={this.state.password} onChange={(e)=>(this.setState({password: e.target.value}))}/>
-        <div className = 'memberLink'>
+        <div className = 'memberLink' style={{margin: '20px'}}>
           <button onClick={this.register.bind(this)}>
             Register
           </button>
